@@ -33,18 +33,18 @@ a {
     height: inherit;
     margin: 0 auto;
     position: relative; }
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: 1300px) {
       #header .headerWrap {
-        width: 960px; } }
+        width: 1300px; } }
     #header .headerWrap .title, #header .headerWrap nav {
       display: inline-block; }
   #header .title {
-    height: inherit;
     line-height: 45px;
     font-size: 45px;
     font-weight: normal;
     color: #fff;
-    margin-right: 5em;
+    margin-right: 8em;
+    width: 0.5em;
     float: left; }
   #header nav {
     vertical-align: top;
@@ -63,7 +63,8 @@ a {
         height: 45px;
         width: 54px;
         line-height: 45px; }
-  #title_page.a:hover {
+  #title_page {
+	margin-right: 3em;
 	background-color: inherit;
 	}
   #header .master {
