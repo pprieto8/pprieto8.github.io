@@ -44,6 +44,7 @@ a {
     font-size: 45px;
     font-weight: normal;
     color: #fff;
+    margin-right: 5em;
     float: left; }
   #header nav {
     vertical-align: top;
@@ -62,6 +63,9 @@ a {
         height: 45px;
         width: 54px;
         line-height: 45px; }
+  #title_page.a:hover {
+	background-color: inherit;
+	}
   #header .master {
     width: 120px;
     float: right;
