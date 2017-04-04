@@ -44,7 +44,7 @@ a {
     font-weight: normal;
     color: #fff;
     margin-right: 8em;
-    width: 0.5em;
+    width: auto;
     float: left; }
   #header nav {
     vertical-align: top;
