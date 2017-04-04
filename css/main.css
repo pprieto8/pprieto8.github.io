@@ -269,7 +269,6 @@ div.error {
       div.error .contentmain .link a {
         color: #105cb6; }
 
-/* 杩斿洖椤堕儴鎸夐挳 */
 div.go-top {
   display: none;
   opacity: 1;
@@ -312,7 +311,6 @@ div.go-top div.stick {
   -moz-border-radius: 1px;
   border-radius: 1px; }
 
-/* 棣栭〉 */
 .profile {
   min-width: 280px;
   border: 1px solid #ddd;
@@ -332,12 +330,16 @@ div.go-top div.stick {
     .profile .profile-main .profile-avatar {
       float: left; }
     .profile .profile-main .profile-avatar {
-      border-radius: 4px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
-      height: 100px;
+      border-radius: 100px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+      height: 120px;
       overflow: hidden;
-      position: relative;
-      width: 100px; }
+      position: static;
+      width: 120px; }
+    #image_profile {
+		margin-left: 0.6em;
+		margin-top: 0.4em;
+		padding: 0; }
     .profile .profile-main .items > div {
       line-height: 1; }
       .profile .profile-main .items > div span + span::before {
@@ -407,7 +409,6 @@ div.go-top div.stick {
   .home-category ul > li {
     list-style: none; }
 
-/* 浠ｇ爜鏍峰紡 */
 pre, pre code {
   color: #fafafa !important;
   background-color: #223 !important; }
@@ -417,7 +418,7 @@ pre {
   padding: 20px 50px; }
 
 code, pre, code span {
-  font-family: Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "鏂囨硥椹跨瓑瀹藉井绫抽粦", "Courier New", Courier, SimSun, monospace;
+  font-family: Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "Courier New", Courier, SimSun, monospace;
   font-size: 15px; }
 
 /* Monokai Theme from https://github.com/richleland/pygments-css/blob/master/monokai.css */
