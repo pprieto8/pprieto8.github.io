@@ -6,7 +6,7 @@ date:   2017-03-04
 categories: Analisis
 permalink: /archivers/review-horizon
 comments: true
-tags: games
+tags: games tree dinosaur ps4
 ---
 
 ![Small example image](/img/horizon1.jpg "Small example image")
