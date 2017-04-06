@@ -6,6 +6,7 @@ date:   2016-04-23
 categories: BoHu
 permalink: /archivers/Whats-Bohu
 comments: true
+tags: others
 ---
 
 
