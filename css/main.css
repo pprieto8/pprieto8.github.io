@@ -616,4 +616,9 @@ code, pre, code span {
   .highlight .gi {
     color: #a6e22e; }
 
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
 /*# sourceMappingURL=main.css.map */
