@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<body class="homebody">
+{% include header.html %}
+{{ content }}
+	</div>
+</div>
+<div class="sidebar">
+  <div class="col-box-title name myFont">{{ site.author }}</div>
+  <p class="myFont">{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+  </p>
+
+  <div class="col-box-title myFont">Articulos Recientes</div>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% include footer.html %}
+{% include foot.html %}
+</body>
+</html>

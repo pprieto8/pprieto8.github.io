@@ -1,0 +1,31 @@
+# Site settings
+title: Pekyll's
+url: "https://pprieto8.github.io/"
+# Your information
+email: pprieto.hisix2@gmail.com
+author: Pablo
+resume: "https://pprieto8.github.io/"
+github_username:  pprieto8
+
+#  choose one and un-comment the line to active it
+disqus_shortname: pprieto8   
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao  
+# get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 2
+paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

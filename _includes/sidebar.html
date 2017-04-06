@@ -1,0 +1,19 @@
+<div class="sidebar">
+	<img class="avatar" src='{{ "/assets/avatar.jpg" | prepend: site.baseurl }}' alt="{{ site.author }}"/>
+	<div>
+		<p class="col-box-title name myFont css2dcc4b9955748">
+		{{ site.author }}
+		{{ site.profile }}
+		{% if site.github_username %}
+		<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		{% endif %}
+		Github
+		</p>
+	</div>
+  <div class="col-box-title myFont css2dcc4b9955748">Articulos Recientes</div>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
