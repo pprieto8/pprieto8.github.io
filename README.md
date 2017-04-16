@@ -1,28 +1,11 @@
-# BoHu 
+# Pekyll's 
 
-It's a simple jekyll blog theme. 
-  
-A style of ZhiHu - the best-known website to share knowledge in China.   
+Esta es mi primera página web en Jekyll.
 
-In the ZhiHu, you can learn knowledge from all over the world.   
+El tema que trata es de Analisis, Avances de videojuegos.
 
-In the BoHu, you can share knowledge to all over the world!
+Està dividido por secciones y tags.
 
-1. **Use paging as 1,2,3,4,5......**   
-1. **Searchable for blog.**    
-1. **Classification is supported.**   
-1. **Good compatibility on mobile devices.**    
-1. **Built-in wordart for English and Chinese.**   
-1. **Music player.**   
-**......**
+# Autor
 
-**Make it yours in under 10 minutes.**  
-
-# Author
-
-[Clark Zhao](http://zhaoyuxiang.cn)
-
-
-# License
-
-Use MIT License.
+[Pablo Prieto](https://pprieto8.github.io)
