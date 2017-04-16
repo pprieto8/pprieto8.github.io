@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+	<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pekyll's Games Blog</title>
@@ -14,8 +14,8 @@
 </head>
 
 
-<body class="homebody">
-  <header id="header">
+	<body>
+		  <header id="header">
     <div class="headerWrap clearfix">
       <nav>
         <ul>
@@ -32,15 +32,17 @@
     </div>
   </header> 
 
-<div class="profile">
-	<div class="profile-navbar clearfix">
-		<a href='/home'><i class="fa fa-home" aria-hidden="true"></i></a>
-		<a href='/index.html'>Blog<span>4</span></a>
-		<a href='/about'>Info</a>
-	</div>
-</div>
+		<main class="clearfix">
+			<div class="content">
+			  <div class="content-inner">
+					<div class="post">
 
-<div class="home-category">
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <article class="post-content">
+    <div class="home-category">
   <h1 class="page-heading">Categorías</h1>
 
   <ul class="post-list">
@@ -72,18 +74,28 @@
   </ul>
 </div>
 
-	</div>
-</div>
-<div class="sidebar">
-  <div class="col-box-title name myFont">Pablo</div>
-  <p class="myFont"></p>
-  <p class="contact">
-    
-    <a href="https://github.com/pprieto8"><i class="fa fa-github" aria-hidden="true"></i></a>
-    
-  </p>
+  </article>
 
-  <div class="col-box-title myFont">Articulos Recientes</div>
+  
+
+
+</div>
+
+				</div>
+			</div>
+			<div class="sidebar">
+	<img class="avatar" src='/assets/avatar.jpg' alt="Pablo"/>
+	<div>
+		<p class="col-box-title name myFont css2dcc4b9955748">
+		Pablo
+		
+		
+		<a href="https://github.com/pprieto8" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		
+		Github
+		</p>
+	</div>
+  <div class="col-box-title myFont css2dcc4b9955748">Articulos Recientes</div>
   <ul class="post-list">
     
       <li><a class="post-link" href="/archivers/avance-starwars">Avance Star Wars Battlefront II</a></li>
@@ -96,7 +108,9 @@
     
   </ul>
 </div>
-	<footer>
+
+		</main>
+			<footer>
 		<div class="footer-inner">
 			<span class="myFont">Copyright &copy; 2017 <a href="https://pprieto8.github.io/">Pablo</a></span>
 			<ul>
@@ -112,7 +126,7 @@
         <div class="stick"></div>
     </div>
 
-<script type="text/javascript">
+		<script type="text/javascript">
 $(function() {
     $(window).scroll(function() {
         if ($(window).scrollTop() > 1000)
@@ -126,5 +140,5 @@ $(function() {
 });
 </script>
 
-</body>
+	</body>
 </html>
