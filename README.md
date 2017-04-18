@@ -6,11 +6,11 @@ Està dividido por secciones y tags.
 
 # Descripción de apartados
 
-Inicio: Agrupación de últimos posts más artículos recientes.
-Temas: Agrupación de temas por categorías.
-Info: Información general del propósito del blog.
-Taglist: Lista de Tags y su correspondientes temas.
-Tagcloud: Árbol de tags.
+Inicio: Agrupación de últimos posts más artículos recientes.  
+Temas: Agrupación de temas por categorías.  
+Info: Información general del propósito del blog.  
+Taglist: Lista de Tags y su correspondientes temas.  
+Tagcloud: Árbol de tags.  
 
 # Autor
 
